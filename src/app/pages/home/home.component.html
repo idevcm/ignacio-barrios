@@ -1,5 +1,14 @@
 @defer {
   <app-header/>
+  <main class="d-flex mt-5">
+    <div class="container-lg mt-4" id="home">
+      <div class="datosHome">
+        <h1 class="tituloPrincipal display-3 fw-bolder">¡Hola,<br>soy <span class="tituloPrincipal-color" typed-text>{{typedText}}</span><span
+          class="cursor"></span><br> encantado de conocerte!</h1>
+        <app-home-button></app-home-button>
+      </div>
+    </div>
+  </main>
 } @placeholder{
   <p>loading...</p>
 } @loading (minimum 300ms){

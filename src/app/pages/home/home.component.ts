@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {HeaderComponent} from "../../shared/header/header.component";
 import {LoadingSpinnerComponent} from "../../shared/loading-spinner/loading-spinner.component";
 import {HomeButtonComponent} from "./home-button/home-button.component";
